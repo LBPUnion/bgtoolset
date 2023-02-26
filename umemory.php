@@ -1,1 +1,1 @@
-<h1>Not implemented, use "System Manager" tab!</h1>
+<p>The dedicated memory manager tab has been moved to the System Manager tab. The same functionality exists there.</p>
