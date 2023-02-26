@@ -863,7 +863,7 @@
 		<div id="tabs" class='ui-helper-hidden main-tabs ' style='padding:0px;height:780px;min-height:780px;-webkit-border-top-left-radius:0px !important;-webkit-border-top-right-radius:0px !important;'>
 			<ul>
 				<li><a href='#toolset'><i class="fa fa-home fa-fw"></i> Home</a></li>
-				<li><a href='umemory.php'><i class="fa fa-table fa-fw"></i> Memory Manager<span title='Refresh Memory Manager Tab' class='refresh fa fa-refresh ui-state-disabled refresh-me pointer tab-icon'></span></a></li>
+				<!--<li><a href='umemory.php'><i class="fa fa-table fa-fw"></i> Memory Manager<span title='Refresh Memory Manager Tab' class='refresh fa fa-refresh ui-state-disabled refresh-me pointer tab-icon'></span></a></li>-->
 				<li><a href='sysmem.php'><i class="fa fa-microchip fa-fw"></i> System Manager<span title='Refresh System Manager Tab' class='refresh fa fa-refresh ui-state-disabled refresh-fm pointer tab-icon'></span></a></li>
 				<li><a href='fileman.php?langCode=en'><i class="fa fa-table fa-hdd-o"></i> File Manager<span title='Refresh File Manager Tab' class='refresh fa fa-refresh ui-state-disabled refresh-fe pointer tab-icon'></span></a></li>
 				<li><a href='#tblog'><i class="fa fa-list-alt fa-fw"></i> Logs</a></li>
@@ -882,7 +882,7 @@
 													<i class="fa fa-square-o fa-stack-2x fa-fw"></i>
 													<i class="fa fa-commenting-o fa-stack-1x fa-fw" style="font-size:8px;"></i>
 												</span>											
-												<span class='top2px baloo-header'> Welcome</span>
+												<span class='top2px baloo-header'> Welcome to bgtoolset.</span>
 											</div>
 										</th>
 									</tr>
@@ -890,12 +890,12 @@
 										<td id='intr' align="justify" class="window-content-top">
 											<div class='sizer'>
 												<i class="fa fa-border fa-quote-left fa-pull-left fa-fw" style="font-size:10px;"></i>
-												The PS3 Toolset is a repository project for tools built upon a ps3 exploitation framework I have been working on for some time.<br/>
+												This site is LBP Union's official mirror of bgtoolset, a collection of PS3 Exploits created by bguerville.<br/>
 												<br/>
-												I hope you enjoy using them as much as I enjoyed making them.
+												We hope this makes your jailbreaking adventures more easily accessible.
 												<i class="fa fa-border fa-quote-right fa-pull-right fa-fw" style="font-size:10px;"></i>
 												<br/>
-												<div class='pad-sig align-right'>@bguerville</div>
+												<div class='pad-sig align-right'>@sudokoko</div>
 											</div>
 										</td>
 									</tr>
@@ -924,8 +924,8 @@
 										<td id='security' align="justify" class="window-content-top">
 											<div class='sizer'>
 												This website does not collect or store any information of personal or technical nature related to you or your console.<br/>
-												No data from your console ever gets transmitted to our web server when using the PS3 Toolset tools, all operations are conducted locally.<br/>
-												Cookies are used locally on the ps3 for persisting a handful of PS3 Toolset variables from one session to the next.
+												No data from your console ever gets transmitted to our web server when using bgtoolset tools, all operations are conducted locally.<br/>
+												Cookies are used locally on the PS3 for persisting a handful of bgtoolset variables from one session to the next.
 											</div>
 										</td>
 									</tr>
@@ -946,21 +946,15 @@
 										01/07/2022 Update v1.2.004
 										<ul class="fa-ul">
 											<li>
-												<i class="fa-li fa fa-chevron-circle-right"></i>Userland Memory Manager v1.2<br/>
+												<i class="fa-li fa fa-chevron-circle-right"></i>Updated to Userland Memory Manager v1.2<br/>
 											</li>
 											<li>
-												<i class="fa-li fa fa-chevron-circle-right"></i>System Manager v1.3.1<br/>
+												<i class="fa-li fa fa-chevron-circle-right"></i>Updated to System Manager v1.3.1<br/>
 											</li>
 											<li>
-												<i class="fa-li fa fa-chevron-circle-right"></i>JS Xploit Framework update v4.2<br/>
+												<i class="fa-li fa fa-chevron-circle-right"></i>Updated to JS Xploit Framework v4.2<br/>
 											</li>
 										</ul>
-									</div>
-									<br/>
-									<div align='right' class='wrap-don'>
-										<i class="fa fa-border fa-quote-left fa-fw" style="font-size:8px;"></i>
-										<span style="font-size:11px;font-style:italic;">The File Manager and the xRegistry Editor feature will be enabled in a next roll out!</span>
-										<i class="fa fa-border fa-quote-right fa-fw" style="padding-left:5px;font-size:8px;"></i>
 									</div>
 									<br/>
 								</div>
@@ -968,10 +962,10 @@
 								<div>
 									<div align='left' class='wrap-don'>
 										<ul class="fa-ul">
-											<li><i class="fa-li fa fa-chevron-circle-right"></i>You are free to use the tools in this project AT YOUR OWN RISK.
-												Keep in mind that no official support is provided, if you experience any kind of problem & find yourself in need of help, I strongly recommend that you turn to the <a href="https://www.psx-place.com/forums/PS3Xploit/" title="https://www.psx-place.com/forums/PS3Xploit/">PS3Xploit sub-forum on psx-place.com</a> for support & guidance..</li>
-											<li><i class="fa-li fa fa-chevron-circle-right"></i>The Flash Player 9 browser plugin must be enabled to use the PS3 Toolset.<br/>
-											If ever you disabled it permanently in the current user profile, you may need to log in as another user or create a new profile to be able to use any of the tools in this project.</li>
+											<li><i class="fa-li fa fa-chevron-circle-right"></i>These tools are provided to you AT YOUR OWN RISK.
+											No official support is provided by LBP Union. If you encounter issues, please join us on our <a href="https://discord.gg/lbpunion">Discord Server</a> and ask for support.</li>
+											<li><i class="fa-li fa fa-chevron-circle-right"></i>The Flash Player 9 browser plugin must be enabled to use bgtoolset.<br/>
+											If ever you disabled it permanently in the current user profile, you may need to log in as another user or create a new profile to be able to use any of the tools.</li>
 											<li><i class="fa-li fa fa-chevron-circle-right"></i>You can enable Flash permanently by checking the "Do not display again" checkbox in the plugin confirmation screen before accepting to load the Flash plugin.</li>
 											<li><i class="fa-li fa fa-chevron-circle-right"></i>It is highly recommended that you adjust the console's System Time settings properly to avoid any time related issues with the browser and/or the Flash Player plugin.</li>
 											<li><i class="fa-li fa fa-chevron-circle-right"></i>To avoid potential crashes, you should never attempt to close the browser while toolset operations are in progress, especially when the browser exit confirmation setting is turned off.</li>
@@ -985,54 +979,11 @@
 											<li><i class="fa-li fa fa-chevron-circle-right" style="line-height:18px;"></i>PS3 Browser Flash Player 9 Plugin enabled<br/></li>
 											<li><i class="fa-li fa fa-chevron-circle-right" style="line-height:18px;"></i>PS3 Browser Javascript enabled<br/></li>
 											<li><i class="fa-li fa fa-chevron-circle-right" style="line-height:18px;"></i>PS3 Browser Cookies enabled<br/></li>
-											<li><i class="fa-li fa fa-chevron-circle-right" style="line-height:18px;"></i>PS3 Firmware: 4.80/4.81/4.82/4.83/4.84/4.85/4.86/4.87/4.88/4.89<br/></li>
+											<li><i class="fa-li fa fa-chevron-circle-right" style="line-height:18px;"></i>PS3 Firmware: 4.80 or above<br/></li>
 											<li><i class="fa-li fa fa-chevron-circle-right" style="line-height:18px;"></i>PS3 Firmware Type: OFW/HFW/MFW/CFW<br/></li>
 											<li><i class="fa-li fa fa-chevron-circle-right" style="line-height:18px;"></i>PS3 Firmware mode: CEX/DEX<br/></li>
 											<li><i class="fa-li fa fa-chevron-circle-right" style="line-height:18px;"></i>PS3 System Time accurately set<br/></li>
 										</ul>
-									</div>
-								</div>
-								<h3> Acknowledgements</h3>
-								<div>
-									<div class='wrap-don'>
-										<p>My warmest thanks to Jason, for his friendship & support of course, but in the context of this project, also for testing my work all year round whenever needed.<br/></p>
-										<br/>
-										<p>The PS3 Toolset & its GUI were built in native js upon various open source js libraries including jQuery, jQueryUI, bigInteger, jstree, mCustomScrollbar, js-logger, js-cookie, sjcl, switchButton, toastmessage, jquery.contextMenu, jquery.splitter, jquery.tablesorter as well as the Fork Awesome CSS icon library.<br/>Thanks to all the coders involved in the various projects.</p>
-										<br/>
-										<p>Thanks to ps3/vita scene hackers, developers, forum creators and psdevwiki contributors, all essential in bringing us to this point.</p>
-									</div>
-								</div>
-								<h3> Help & Donations <i class="fa fa-exclamation-circle  fa-fw"></i></h3>
-								<div>
-									<div id='donations' class='wrap-don' style="max-width:500px;max-height:300px;">
-										<div align='justify' style="max-width:550px;max-height:300px;padding:0 5px 0 5px;">
-										On behalf of the PS3Xploit team & our users, I would like to convey our sincere thanks to all donators for their support to date.<br/>
-										To help cover the costs of keeping this project accessible to the public in the future, please consider a donation via Paypal at <b>team@ps3xploit.net</b> or in BTC/ETH/USDT using appropriate wallets below.<br/><br/>
-										</div>
-										<div class='container-qr'>	
-											<div class='box-table-180' >
-												<div class='box-row'>
-													<div class='box-cell-33 qr-btc-p2pkh'></div>
-													<div class='box-cell-33  qr-btc-bech32'></div>
-													<div class='box-cell-33  qr-eth'></div>
-													<div class='box-cell-33  qr-usdt'></div>
-												</div>
-												<div class='box-row' style="font-size:10px;">
-													<div class='box-cell-33b' title='Legacy P2PKH'>
-														<i class="fa fa-btc fa-fw" ></i> P2PKH
-													</div>
-													<div class='box-cell-33b' title='Segwit BECH32'>
-														<i class="fa fa-btc fa-fw"></i> BECH32
-													</div>
-													<div class='box-cell-33b' title='ERC20 Mainnet' style="font-size:10px;">
-														<i class="fa fa-ethereum fa-fw"></i> ERC20
-													</div>
-													<div class='box-cell-33b' title='ERC20 Mainnet' style="font-size:10px;">
-														<i class="fa fa-usd fa-fw"></i> ERC20
-													</div>
-												</div>
-											</div>
-										</div>
 									</div>
 								</div>
 							</div>
